@@ -7,6 +7,7 @@ A full-stack OCR (Optical Character Recognition) application where users can:
 - Edit the text
 - Choose a language for OCR
 - Download the extracted text as a PDF
+- Download the extracted text as a WORD
 
 Built with **React**, **Tailwind CSS**, and **Django REST Framework**.
 
@@ -23,6 +24,7 @@ Built with **React**, **Tailwind CSS**, and **Django REST Framework**.
 - 📤 Progress bar while uploading/processing
 - ✏️ Edit extracted text before saving
 - 📄 Download as PDF
+- 📄 Download as WORD
 - 💬 EasyOCR for accurate and lightweight text recognition
 
 ---
@@ -70,7 +72,7 @@ python manage.py runserver
 
 > Make sure you install the dependencies manually:
 ```bash
-pip install django djangorestframework easyocr pillow reportlab
+pip install django djangorestframework easyocr pillow reportlab python-docx
 ```
 
 ---
