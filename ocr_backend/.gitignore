@@ -1,0 +1,42 @@
+# Python Bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.pyd
+
+# Django migrations
+**/migrations/*.py
+**/migrations/*.pyc
+**/migrations/__pycache__
+
+# Database files
+db.sqlite3
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+env/
+
+# IDEs and editors (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+*.bak
+*.swp
+
+# Static and media files (you might want to exclude these if using a cloud storage)
+static/
+media/
+
+# Django admin files
+*.log
+
+# .env files that contain sensitive information
+.env
