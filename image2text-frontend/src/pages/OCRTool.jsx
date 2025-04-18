@@ -43,7 +43,7 @@ const OCRTool = () => {
       setProgress(0);
       setError("");
 
-      const res = await axios.post("http://localhost:8000/api/ocr/", formData, {
+      const res = await axios.post("https://ocr-bankend.onrender.com/api/ocr/", formData, {
         headers: { "Content-Type": "multipart/form-data" },
         onUploadProgress: (e) => {
           setProgress(Math.round((e.loaded * 100) / e.total));
@@ -65,7 +65,7 @@ const OCRTool = () => {
     const endpoint = format === "pdf" ? "pdf" : "word";
 
     const response = await axios.post(
-      `http://localhost:8000/api/${endpoint}/`,
+      `https://ocr-bankend.onrender.com/api/${endpoint}/`,
       { text, language },
       { responseType: "blob" }
     );

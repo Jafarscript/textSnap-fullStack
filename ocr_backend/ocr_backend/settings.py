@@ -25,11 +25,7 @@ SECRET_KEY = "django-insecure-hw25su6q!zh=o4mn3eitdltni3)hn(_p$qah&$wfxzb*-hi+^%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    'ocr-bankend.onrender.com'  # 👈 Add your Render domain here
-]
+ALLOWED_HOSTS = ['*']  # Allow all hosts for development; change in production
 
 
 
