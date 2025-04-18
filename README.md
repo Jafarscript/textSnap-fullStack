@@ -1,4 +1,3 @@
-```markdown
 # 🧠 Image to Text (OCR) Web App
 
 A full-stack OCR (Optical Character Recognition) application where users can:
@@ -158,7 +157,3 @@ Twitter: [@li_jafar](https://twitter.com/yourhandle)
 Email: lihammedjafar@gmail.com
 
 ```
-
----
-
-Would you like me to generate some placeholder screenshots (`upload.png`, `edit-text.png`, `ocr-hero.png`) for you to add to the `public/` folder?
