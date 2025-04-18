@@ -26,8 +26,11 @@ SECRET_KEY = "django-insecure-hw25su6q!zh=o4mn3eitdltni3)hn(_p$qah&$wfxzb*-hi+^%
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "https://ocr-bankend.onrender.com"
+    'localhost',
+    '127.0.0.1',
+    'ocr-bankend.onrender.com'  # 👈 Add your Render domain here
 ]
+
 
 
 # Application definition
